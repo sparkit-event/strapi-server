@@ -373,6 +373,7 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
   };
 }
 
+<<<<<<< HEAD
 export interface ApiPostPost extends Struct.CollectionTypeSchema {
   collectionName: 'posts';
   info: {
@@ -404,6 +405,8 @@ export interface ApiPostPost extends Struct.CollectionTypeSchema {
   };
 }
 
+=======
+>>>>>>> 51216aecd9d1875bfa01667121b38d8a8d2fe7a5
 export interface PluginContentReleasesRelease
   extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_releases';
@@ -913,7 +916,10 @@ declare module '@strapi/strapi' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
+<<<<<<< HEAD
       'api::post.post': ApiPostPost;
+=======
+>>>>>>> 51216aecd9d1875bfa01667121b38d8a8d2fe7a5
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;
